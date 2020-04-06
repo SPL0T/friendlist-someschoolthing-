@@ -21,7 +21,8 @@ var filtered = Friends.filter(Boolean);
 Friends = filtered
 console.log(Friends)
 Kaverilista.innerText = Friends;
-console.log(Friends)
+console.log(Friends);
+Nimi.value=""
 ;}
 else {
 alert("Älä valehtele! et oo niin suosittu.");}

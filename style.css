@@ -15,7 +15,7 @@ body {
 
   .header {
     border-radius: 0 0 100px 0;
-    background-image: url('../images/header.jpg');
+    background-image: url('header.jpg');
     background-position: center;
     background-size: 101%;
     border: 2px #27283a;
@@ -77,6 +77,10 @@ button:hover {
 }
 
 ::placeholder {
+    color: #27283a;
+}
+
+::-ms-input-placeholder {
     color: #27283a;
 }
 
