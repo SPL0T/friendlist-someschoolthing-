@@ -57,8 +57,21 @@ body {
     color: #181a2b;
 }
 
-.addfriend button{
-    width: 60%;
+::placeholder {
+    color: #27283a;
+}
+
+::-ms-input-placeholder {
+    color: #27283a;
+}
+
+.btns {
+    grid-column: 1 / span 100;
+    grid-row: 3;
+}
+
+#addfriends, #delfriends, #sortfriends{
+    width: 100%;
     text-align: center;
     padding: 25px 0;
     font-weight: bold;
@@ -70,18 +83,25 @@ body {
     background-color: #6B6E96;
     color: #181a2b;
 }
-
-button:hover {
+#addfriends:hover, #sortfriends:hover, #delfriends:hover{
     background-color: #393b50;
     color: #6B6E96;
 }
 
-::placeholder {
-    color: #27283a;
+
+#addfriends {
+    grid-column: 3 / span 30;
+    grid-row: 3;
 }
 
-::-ms-input-placeholder {
-    color: #27283a;
+#sortfriends {
+    grid-column: 36 / span 30;
+    grid-row: 3;
+}
+
+#delfriends {
+    grid-column: 69 / span 30;
+    grid-row: 3;
 }
 
 .friendlist {
@@ -89,7 +109,7 @@ button:hover {
     color: #0e0f1b;
     width: 100%;
     grid-column: 1 / 101;
-    grid-row: 3;
+    grid-row: 4;
     background-color: #6B6E96;;
     min-height: 313px;
 }
