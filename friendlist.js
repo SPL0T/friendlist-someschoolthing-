@@ -6,23 +6,14 @@ let Friends = [];
 
 function remover() {
 var filtered = Friends.filter(Boolean);
-Friends = filtered;
-console.log(Friends);}
-
-function linebreak() {
-    Kaverilista.innerHTML +="<br>";
-}
+Friends = filtered;}
 
 function Lisääkaveri() {
 if(Friends.length < 10) {
 remover();
 Friends.unshift(Nimi.value);
-var filtered = Friends.filter(Boolean);
-Friends = filtered
-console.log(Friends)
-Kaverilista.innerText = Friends;
-console.log(Friends);
-Nimi.value=""
+Kaverilista.innerText = Friends+" ";
+Nimi.value="";
 ;}
 else {
 alert("Älä valehtele! et oo niin suosittu.");}
