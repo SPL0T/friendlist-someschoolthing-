@@ -115,6 +115,7 @@ body {
 }
 
 .friendlist h1{
+    color: #181a2b;
     font-size:50px;
     line-height: 0.8em;
     margin: 0;
@@ -125,10 +126,13 @@ body {
     text-align: center;
 }
 
-.kaverit {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 25px;
+#kaverit {
+    color: #181a2b;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 30px;
     padding-bottom: 25px;
+    font-weight: bold;
+    margin-left: 30px;
 }
 
 .footer {
